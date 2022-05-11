@@ -93,8 +93,9 @@ nav {
     border: 5px;
     margin-left: 200px;
     margin-right: 450px;
-    padding: 15px;
+    padding: 10px;
     border-radius: 25px;
+    text-align: center;
 
 }
 
@@ -279,4 +280,31 @@ food-head {
     height: 650px;
     border: 20px;
     border-color: whitesmoke;
+}
+
+.contact {
+    text-align: center;
+    border: 15px;
+
+}
+
+.contact-hero {
+    background-image: url('greenWallpaper.jpg');
+    background-repeat: repeat;
+    height: 1000px;
+}
+
+.column1 {
+    float: left;
+    width: 33.33%;
+}
+
+.column2 {
+    float: center;
+    width: 33.33%;
+}
+
+.column3 {
+    float: right;
+    width: 34.33%;
 }

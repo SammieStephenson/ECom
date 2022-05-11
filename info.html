@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Inquire for More</title>
+    <title>Contact Jen</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <section class="index-hero">
+    <section class="contact-hero">
         <nav style=text-align:right;>
             <ul class="nav-links">
                 <li><a class="nav-anchor" href="home.html"> Home </a></li>
@@ -17,44 +17,47 @@
                 <li><a class="nav-anchor" href="info.html"> Cart & Contact </a></li>
             </ul>
         </nav>
-        <header>
-            <h1 style=text-align:left;> Contact Us </h1>
-            <p style=text-align:left;> Please fill out the form below for more Info. We will respond in <em>48 business
-                    hours</em>! We can't wait to see you in Charleston soon~ </p>
-        </header>
-        <section>
-            <form class="form" action="process.php" method="post" style=text-align:left;>
-                <input type="text" name="first-name" placeholder=" First Name">
-                </input>
-                <br> </br>
-                <br>
-                <input type="text" name="last-name" placeholder=" Last Name">
-                </input>
-                <br></br>
-                <br>
-                <input type="email" name="email" placeholder="Best Email">
-                </input>
-                <br> </br>
-                <br>
-                <input type="Phone Number" name="Phone Number" placeholder="Best Phone Number">
-                </input>
-                <br>
-                <br>
-                <div>
-                    <textarea name="message"
-                        placeholder="Leave any comments, questions, or details you'd like us to know"></textarea>
-                </div>
-                <br></br>
-                <input type="submit" name="Submit" value="Submit">
-                <style>
-                    body {
-                        padding-bottom: 60px;
-                    }
-                </style>
-                </input>
-            </form>
-        </section>
+        <div class="row">
+            <div class="column1"></div>
+            <div class="column2">
+                <section>
+                    <header>
+                        <h1 class="contact"> Contact Us </h1>
+                        <p class="contact"> Please fill out the form below for more Info. We will respond in <em>48
+                                business
+                                hours</em>! We can't wait to see you in Charleston soon~ </p>
+                    </header>
+                    <form class="form" action="process.php" method="post">
+                        <input type="text" name="first-name" placeholder=" First Name">
+                        </input>
+                        <br> </br>
+                        <br>
+                        <input type="text" name="last-name" placeholder=" Last Name">
+                        </input>
+                        <br></br>
+                        <br>
+                        <input type="email" name="email" placeholder="Best Email">
+                        </input>
+                        <br> </br>
+                        <br>
+                        <input type="Phone Number" name="Phone Number" placeholder="Best Phone Number">
+                        </input>
+                        <br>
+                        <br>
+                        <div>
+                            <textarea name="message"
+                                placeholder="Leave any comments, questions, or details you'd like us to know"></textarea>
+                        </div>
+                        <br></br>
+                        <input type="submit" name="Submit" value="Submit">
+                        </input>
+                    </form>
+                </section>
+            </div>
+            <div class="column3">
+            </div>
     </section>
+    </div>
     <footer>
         <p>Copyright &copy; 2022 website designed by Sam S.
         </p>
