@@ -18,7 +18,7 @@ nav {
 .index-hero {
     background-image: url('greenWallpaper.jpg');
     background-repeat: repeat;
-    height: 2500px;
+    height: 1000px;
 }
 
 /* .shop-hero {
@@ -31,7 +31,7 @@ nav {
 .index-div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
     padding-top: 50px;
 }
 
@@ -41,17 +41,17 @@ nav {
     font-family: serif, Didot;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    background-color: black;
     color: whitesmoke;
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-left: 40px;
 }
 
 .index-para {
-    margin-left: 180px;
+    margin-left: 75px;
     margin-right: 180px;
+    margin-top: 100px;
+    width: 350px;
     font-size: 20pt;
-    background-color: rgba(128, 128, 128, 0.85);
+    background-color: rgba(182, 159, 109, 0.85);
     padding: 10px;
     border-radius: 25px;
 
@@ -91,7 +91,7 @@ nav {
     background-position: absolute;
     background-color: rgba(255, 255, 255, 0.6);
     border: 5px;
-    margin-left: 450px;
+    margin-left: 200px;
     margin-right: 450px;
     padding: 15px;
     border-radius: 25px;
@@ -147,7 +147,7 @@ footer {
     margin-top: 60px;
     position: relative;
     border: 10px solid white;
-    size: 40%;
+    size: 60%;
     margin-left: 60px;
     margin: 40px;
 
@@ -216,7 +216,7 @@ food-head {
 .columnL {
     float: left;
     width: 34.33%;
-    align: left;
+    text-align: left;
 }
 
 .columnM {
@@ -239,9 +239,10 @@ food-head {
 
 .headline {
     text-align: center;
-    font-size: 32pt;
+    color: white;
+    font-size: 46pt;
     font-family: 'Times New Roman', serif;
-    text-shadow: 3px 3px 7px white;
+    text-shadow: 3px 3px 7px black;
     margin-top: 60px;
 }
 
@@ -257,3 +258,25 @@ food-head {
     justify-content: right;
     background-color: whitesmoke;
     padding: 20px;
+}
+
+.columnA {
+    float: left;
+    width: 50%;
+    padding: 0px;
+}
+
+.columnB {
+    float: right;
+    width: 50%;
+}
+
+.jenself {
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left: 35%;
+    width: 450px;
+    height: 650px;
+    border: 20px;
+    border-color: whitesmoke;
+}
